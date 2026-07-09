@@ -8,6 +8,7 @@ def is_free_shipping(order_price):
 def get_delivery_message(order_price):
     if is_free_shipping(order_price):
         return "FREE_SHIPPING"
+
     return "DELIVERY_FEE_REQUIRED"
 
 print(get_delivery_message(TEST_ORDER_PRICE))
