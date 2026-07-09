@@ -11,4 +11,5 @@ def get_delivery_message(order_price):
 
     return "DELIVERY_FEE_REQUIRED"
 
-print(get_delivery_message(TEST_ORDER_PRICE))
+if __name__ == "__main__":
+    print(get_delivery_message(TEST_ORDER_PRICE))
