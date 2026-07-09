@@ -1,8 +1,11 @@
 FREE_SHIPPING_LIMIT = 50000
 
 def get_delivery_message(order_price):
+    message = "DELIVERY_FEE_REQUIRED"
+
     if order_price >= FREE_SHIPPING_LIMIT:
-        return "FREE_SHIPPING"
-    return "DELIVERY_FEE_REQUIRED"
+        message = "FREE_SHIPPING"
+
+    return message
 
 print(get_delivery_message(50000))
