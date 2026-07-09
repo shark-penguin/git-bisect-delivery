@@ -1,4 +1,5 @@
 FREE_SHIPPING_LIMIT = 50000
+TEST_ORDER_PRICE = 50000
 
 def get_delivery_message(order_price):
     message = "DELIVERY_FEE_REQUIRED"
@@ -8,4 +9,4 @@ def get_delivery_message(order_price):
 
     return message
 
-print(get_delivery_message(50000))
+print(get_delivery_message(TEST_ORDER_PRICE))
