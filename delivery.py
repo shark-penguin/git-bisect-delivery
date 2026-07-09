@@ -2,7 +2,7 @@ FREE_SHIPPING_LIMIT = 50000
 TEST_ORDER_PRICE = 50000
 
 def is_free_shipping(order_price):
-    return order_price >= FREE_SHIPPING_LIMIT
+    return order_price > FREE_SHIPPING_LIMIT
 
 def get_delivery_message(order_price):
     if is_free_shipping(order_price):
