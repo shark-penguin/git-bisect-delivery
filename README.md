@@ -10,6 +10,7 @@
 
 
 
+
 무료배송 조건은 다음과 같습니다.
 
 
@@ -28,7 +29,7 @@
 
 ```text
 
-FREE\_SHIPPING
+FREE_SHIPPING
 
 ```
 
@@ -40,7 +41,7 @@ FREE\_SHIPPING
 
 ```text
 
-DELIVERY\_FEE\_REQUIRED
+DELIVERY_FEE_REQUIRED
 
 ```
 
@@ -80,7 +81,7 @@ DELIVERY\_FEE\_REQUIRED
 
 
 
-과거 커밋 중 하나로 이동한 뒤 `delivery.py`를 실행해보고, 출력이 `FREE\_SHIPPING`으로 나오는 경우에만 그 커밋을 good commit으로 표시하세요.
+과거 커밋 중 하나로 이동한 뒤 `delivery.py`를 실행해보고, 출력이 `FREE_SHIPPING`으로 나오는 경우에만 그 커밋을 good commit으로 표시하세요.
 
 
 
